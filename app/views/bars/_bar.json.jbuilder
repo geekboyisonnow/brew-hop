@@ -1,2 +1,2 @@
-json.extract! bar, :id, :type_of_bar, :created_at, :updated_at
+json.extract! bar, :id, :type_of_bar
 json.url bar_url(bar, format: :json)
